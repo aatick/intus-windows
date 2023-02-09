@@ -1,0 +1,113 @@
+﻿@page "/subelementsetup"
+@page "/subelementsetup/{id:int}"
+@using IntusWindows.Client.Pages.CommonComponent
+@if (Id == 0 || Id == null)
+{
+    <PageTitle>Create New Subelement</PageTitle>
+    <h3>Create New Subelement</h3>
+}
+else
+{
+    <PageTitle>Update Subelement</PageTitle>
+    <h3>Edit Subelement</h3>
+}
+<div style="height: 1px; width: 100%; background-color: #DDDDDD;"></div>
+<EditForm Model="aSubElement" OnSubmit="HandleSubmitAsync">
+    <div class="container-fluid mt-5">
+        <div class="col-lg-8">
+            <div class="row mb-5">
+                <div class="col-lg-2">
+                    <label for="txtName">Select Order :</label>
+                </div>
+                <div class="col-lg-4">
+                    <select class="form-control input-sm" id="cmbOrder" @onchange="OnOrderSelect">
+                        <option value="0">Select Order</option>
+                        @foreach (var o in orderList)
+                        {
+                            if (Id == 0 || Id == null)
+                            {
+                                <option value="@o.Id">@o.Name</option>
+                            }
+                            else
+                            {
+                                if (aSubElement.Window != null)
+                                {
+                                    if (o.Id == aSubElement.Window.OrderId)
+                                    {
+                                        <option selected="selected" value="@o.Id">@o.Name</option>
+                                    }
+                                    else
+                                    {
+                                        <option value="@o.Id">@o.Name</option>
+                                    }
+                                }
+                            }
+                        }
+                    </select>
+                </div>
+                <div class="col-lg-2">
+                    <label for="txtName">Select Window :</label>
+                </div>
+                <div class="col-lg-4">
+                    <select class="form-control input-sm" id="cmbOrder" @onchange="OnWindowSelect">
+                        <option value="0">Select Window</option>
+                        @foreach (var o in windowList)
+                        {
+                            if (o.Id == aSubElement.WindowId)
+                            {
+                                <option selected="selected" value="@o.Id">@o.Name</option>
+                            }
+                            else
+                            {
+                                <option value="@o.Id">@o.Name</option>
+                            }
+                        }
+                    </select>
+                </div>
+            </div>
+            <div class="row mb-5">
+                <div class="col-lg-2">
+                    <label for="txtName">Element :</label>
+                </div>
+                <div class="col-lg-4">
+                    <input id="txtName" @bind-value="@aSubElement.Element" class="form-control input-sm" />
+                </div>
+                <div class="col-lg-2">
+                    <label for="txtName">Type :</label>
+                </div>
+                <div class="col-lg-4">
+                    <input id="txtName" @bind-value="@aSubElement.Type" class="form-control input-sm" />
+                </div>
+            </div>
+            <div class="row mb-5">
+                <div class="col-lg-2">
+                    <label for="txtName">Height :</label>
+                </div>
+                <div class="col-lg-4">
+                    <input id="txtName" @bind-value="@aSubElement.Height" class="form-control input-sm" />
+                </div>
+                <div class="col-lg-2">
+                    <label for="txtName">Width :</label>
+                </div>
+                <div class="col-lg-4">
+                    <input id="txtName" @bind-value="@aSubElement.Width" class="form-control input-sm" />
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-lg-2"></div>
+                <div class="col-lg-4">
+                    @if (Id == null || Id == 0)
+                    {
+                        <button type="submit" class="btn btn-primary btn-success"><i class="oi oi-check"></i> Save</button>
+                    }
+                    else
+                    {
+                        <button type="submit" class="btn btn-primary btn-success"><i class="oi oi-check"></i> Update</button>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</EditForm>
+<CustomAlertBox alertBox="@alertBox">
+</CustomAlertBox>

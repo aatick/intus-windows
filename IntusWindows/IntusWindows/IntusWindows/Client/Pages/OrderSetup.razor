@@ -1,0 +1,55 @@
+﻿@page "/ordersetup"
+@page "/ordersetup/{id:int}"
+@using IntusWindows.Client.Pages.CommonComponent
+@if (Id == 0 || Id == null)
+{
+    <PageTitle>New Order</PageTitle>
+    <h3>Place new Order</h3>
+}
+else
+{
+    <PageTitle>Update Order</PageTitle>
+    <h3>Edit Order</h3>
+}
+<div style="height: 1px; width: 100%; background-color: #DDDDDD;"></div>
+<EditForm Model="order" OnSubmit="HandleSubmitAsync">
+    <div class="container-fluid mt-5">
+        <div class="row mb-5">
+            <div class="col-lg-8">
+                <div class="row">
+                    <div class="col-lg-2">
+                        <label for="txtName">Name :</label>
+                    </div>
+                    <div class="col-lg-4">
+                        <input id="txtName" @bind-value="@order.Name" class="form-control input-sm" />
+                    </div>
+                </div>
+                <div class="row mt-5">
+                    <div class="col-lg-2">
+                        <label for="txtState">State :</label>
+                    </div>
+                    <div class="col-lg-4">
+                        <input id="txtState" @bind-value="@order.State" class="form-control input-sm" />
+                    </div>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-lg-2">
+                    </div>
+                    <div class="col-lg-4 text-left">
+                        @if (Id == null || Id == 0)
+                        {
+                            <button type="submit" class="btn btn-primary btn-success"><i class="oi oi-check"></i> Save</button>
+                        }
+                        else
+                        {
+                            <button type="submit" class="btn btn-primary btn-success"><i class="oi oi-check"></i> Update</button>
+                        }
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</EditForm>
+<CustomAlertBox alertBox="@alertBox">
+</CustomAlertBox>

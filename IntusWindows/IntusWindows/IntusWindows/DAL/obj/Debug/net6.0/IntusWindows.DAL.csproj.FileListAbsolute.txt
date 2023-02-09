@@ -1,0 +1,14 @@
+F:\Personal Projects\IntusWindows\IntusWindows\IntusWindows\DAL\bin\Debug\net6.0\IntusWindows.DAL.deps.json
+F:\Personal Projects\IntusWindows\IntusWindows\IntusWindows\DAL\bin\Debug\net6.0\IntusWindows.DAL.runtimeconfig.json
+F:\Personal Projects\IntusWindows\IntusWindows\IntusWindows\DAL\bin\Debug\net6.0\IntusWindows.DAL.dll
+F:\Personal Projects\IntusWindows\IntusWindows\IntusWindows\DAL\bin\Debug\net6.0\IntusWindows.DAL.pdb
+F:\Personal Projects\IntusWindows\IntusWindows\IntusWindows\DAL\obj\Debug\net6.0\IntusWindows.DAL.csproj.AssemblyReference.cache
+F:\Personal Projects\IntusWindows\IntusWindows\IntusWindows\DAL\obj\Debug\net6.0\IntusWindows.DAL.GeneratedMSBuildEditorConfig.editorconfig
+F:\Personal Projects\IntusWindows\IntusWindows\IntusWindows\DAL\obj\Debug\net6.0\IntusWindows.DAL.AssemblyInfoInputs.cache
+F:\Personal Projects\IntusWindows\IntusWindows\IntusWindows\DAL\obj\Debug\net6.0\IntusWindows.DAL.AssemblyInfo.cs
+F:\Personal Projects\IntusWindows\IntusWindows\IntusWindows\DAL\obj\Debug\net6.0\IntusWindows.DAL.csproj.CoreCompileInputs.cache
+F:\Personal Projects\IntusWindows\IntusWindows\IntusWindows\DAL\obj\Debug\net6.0\IntusWindows.DAL.dll
+F:\Personal Projects\IntusWindows\IntusWindows\IntusWindows\DAL\obj\Debug\net6.0\refint\IntusWindows.DAL.dll
+F:\Personal Projects\IntusWindows\IntusWindows\IntusWindows\DAL\obj\Debug\net6.0\IntusWindows.DAL.pdb
+F:\Personal Projects\IntusWindows\IntusWindows\IntusWindows\DAL\obj\Debug\net6.0\IntusWindows.DAL.genruntimeconfig.cache
+F:\Personal Projects\IntusWindows\IntusWindows\IntusWindows\DAL\obj\Debug\net6.0\ref\IntusWindows.DAL.dll

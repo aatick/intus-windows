@@ -1,0 +1,63 @@
+﻿@page "/salesorders"
+@using IntusWindows.Client.Pages.CommonComponent
+@using static IntusWindows.Shared.Helper
+<PageTitle>Sales Orders</PageTitle>
+<h3>Sales Orders</h3>
+@if (orderList == null)
+{
+    <div class="row my-5">
+        <div class="col-lg-12">
+            <span class="mb-5 mt-5">Loading Orders...</span>
+        </div>
+    </div>
+}
+else if (orderList.Count == 0)
+{
+    <div class="row my-5">
+        <div class="col-lg-12">
+            <span class="alert alert-danger mb-5 mt-5">There is no order right now</span>
+        </div>
+    </div>
+}
+else
+{
+    <div class="row">
+        <div class="col-lg-12">
+            <table class="table table-responsive">
+                <thead>
+                    <tr>
+                        <th>Sl#</th>
+                        <th>Name</th>
+                        <th>State</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @{
+                        var i = 0;
+                    }
+                    @foreach (var o in orderList)
+                    {
+                        <tr>
+                            <td>@(++i)</td>
+                            <td>@o.Name</td>
+                            <td>@o.State</td>
+                            <td>
+                                <button class="btn btn-sm btn-success btn-edit" @onclick="(()=>EditOrder(o.Id))"><i class="oi oi-pencil"></i> Edit</button>
+                                <button class="btn btn-sm btn-danger btn-delete" @onclick="(()=>ShowModal(o.Id))"><i class="oi oi-trash"></i> Delete</button>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+}
+<div class="row">
+    <div class="col-lg-12">
+        <button class="btn btn-sm btn-primary" @onclick="GoToNewOrder"><i class="oi oi-pencil"></i> Create New Order</button>
+    </div>
+</div>
+
+<CustomAlertBox alertBox="@alertBox">
+</CustomAlertBox>

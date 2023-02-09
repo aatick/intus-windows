@@ -1,0 +1,463 @@
+{
+  "format": 1,
+  "restore": {
+    "F:\\Personal Projects\\IntusWindows\\IntusWindows\\IntusWindows\\Server\\IntusWindows.Server.csproj": {}
+  },
+  "projects": {
+    "F:\\Personal Projects\\IntusWindows\\IntusWindows\\IntusWindows\\BLL\\IntusWindows.BLL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\Personal Projects\\IntusWindows\\IntusWindows\\IntusWindows\\BLL\\IntusWindows.BLL.csproj",
+        "projectName": "IntusWindows.BLL",
+        "projectPath": "F:\\Personal Projects\\IntusWindows\\IntusWindows\\IntusWindows\\BLL\\IntusWindows.BLL.csproj",
+        "packagesPath": "C:\\Users\\Microsoft Windows\\.nuget\\packages\\",
+        "outputPath": "F:\\Personal Projects\\IntusWindows\\IntusWindows\\IntusWindows\\BLL\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Microsoft Windows\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "F:\\Personal Projects\\IntusWindows\\IntusWindows\\IntusWindows\\DAL\\IntusWindows.DAL.csproj": {
+                "projectPath": "F:\\Personal Projects\\IntusWindows\\IntusWindows\\IntusWindows\\DAL\\IntusWindows.DAL.csproj"
+              },
+              "F:\\Personal Projects\\IntusWindows\\IntusWindows\\IntusWindows\\Shared\\IntusWindows.Shared.csproj": {
+                "projectPath": "F:\\Personal Projects\\IntusWindows\\IntusWindows\\IntusWindows\\Shared\\IntusWindows.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[7.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\Personal Projects\\IntusWindows\\IntusWindows\\IntusWindows\\Client\\IntusWindows.Client.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\Personal Projects\\IntusWindows\\IntusWindows\\IntusWindows\\Client\\IntusWindows.Client.csproj",
+        "projectName": "IntusWindows.Client",
+        "projectPath": "F:\\Personal Projects\\IntusWindows\\IntusWindows\\IntusWindows\\Client\\IntusWindows.Client.csproj",
+        "packagesPath": "C:\\Users\\Microsoft Windows\\.nuget\\packages\\",
+        "outputPath": "F:\\Personal Projects\\IntusWindows\\IntusWindows\\IntusWindows\\Client\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Microsoft Windows\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "F:\\Personal Projects\\IntusWindows\\IntusWindows\\IntusWindows\\BLL\\IntusWindows.BLL.csproj": {
+                "projectPath": "F:\\Personal Projects\\IntusWindows\\IntusWindows\\IntusWindows\\BLL\\IntusWindows.BLL.csproj"
+              },
+              "F:\\Personal Projects\\IntusWindows\\IntusWindows\\IntusWindows\\DAL\\IntusWindows.DAL.csproj": {
+                "projectPath": "F:\\Personal Projects\\IntusWindows\\IntusWindows\\IntusWindows\\DAL\\IntusWindows.DAL.csproj"
+              },
+              "F:\\Personal Projects\\IntusWindows\\IntusWindows\\IntusWindows\\Shared\\IntusWindows.Shared.csproj": {
+                "projectPath": "F:\\Personal Projects\\IntusWindows\\IntusWindows\\IntusWindows\\Shared\\IntusWindows.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Components.WebAssembly": {
+              "target": "Package",
+              "version": "[6.0.10, )"
+            },
+            "Microsoft.AspNetCore.Components.WebAssembly.DevServer": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[7.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "browser-wasm": {
+          "#import": []
+        }
+      }
+    },
+    "F:\\Personal Projects\\IntusWindows\\IntusWindows\\IntusWindows\\DAL\\IntusWindows.DAL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\Personal Projects\\IntusWindows\\IntusWindows\\IntusWindows\\DAL\\IntusWindows.DAL.csproj",
+        "projectName": "IntusWindows.DAL",
+        "projectPath": "F:\\Personal Projects\\IntusWindows\\IntusWindows\\IntusWindows\\DAL\\IntusWindows.DAL.csproj",
+        "packagesPath": "C:\\Users\\Microsoft Windows\\.nuget\\packages\\",
+        "outputPath": "F:\\Personal Projects\\IntusWindows\\IntusWindows\\IntusWindows\\DAL\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Microsoft Windows\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[7.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\Personal Projects\\IntusWindows\\IntusWindows\\IntusWindows\\Server\\IntusWindows.Server.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\Personal Projects\\IntusWindows\\IntusWindows\\IntusWindows\\Server\\IntusWindows.Server.csproj",
+        "projectName": "IntusWindows.Server",
+        "projectPath": "F:\\Personal Projects\\IntusWindows\\IntusWindows\\IntusWindows\\Server\\IntusWindows.Server.csproj",
+        "packagesPath": "C:\\Users\\Microsoft Windows\\.nuget\\packages\\",
+        "outputPath": "F:\\Personal Projects\\IntusWindows\\IntusWindows\\IntusWindows\\Server\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Microsoft Windows\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "F:\\Personal Projects\\IntusWindows\\IntusWindows\\IntusWindows\\BLL\\IntusWindows.BLL.csproj": {
+                "projectPath": "F:\\Personal Projects\\IntusWindows\\IntusWindows\\IntusWindows\\BLL\\IntusWindows.BLL.csproj"
+              },
+              "F:\\Personal Projects\\IntusWindows\\IntusWindows\\IntusWindows\\Client\\IntusWindows.Client.csproj": {
+                "projectPath": "F:\\Personal Projects\\IntusWindows\\IntusWindows\\IntusWindows\\Client\\IntusWindows.Client.csproj"
+              },
+              "F:\\Personal Projects\\IntusWindows\\IntusWindows\\IntusWindows\\DAL\\IntusWindows.DAL.csproj": {
+                "projectPath": "F:\\Personal Projects\\IntusWindows\\IntusWindows\\IntusWindows\\DAL\\IntusWindows.DAL.csproj"
+              },
+              "F:\\Personal Projects\\IntusWindows\\IntusWindows\\IntusWindows\\Shared\\IntusWindows.Shared.csproj": {
+                "projectPath": "F:\\Personal Projects\\IntusWindows\\IntusWindows\\IntusWindows\\Shared\\IntusWindows.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Components.WebAssembly.Server": {
+              "target": "Package",
+              "version": "[6.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[7.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\Personal Projects\\IntusWindows\\IntusWindows\\IntusWindows\\Shared\\IntusWindows.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\Personal Projects\\IntusWindows\\IntusWindows\\IntusWindows\\Shared\\IntusWindows.Shared.csproj",
+        "projectName": "IntusWindows.Shared",
+        "projectPath": "F:\\Personal Projects\\IntusWindows\\IntusWindows\\IntusWindows\\Shared\\IntusWindows.Shared.csproj",
+        "packagesPath": "C:\\Users\\Microsoft Windows\\.nuget\\packages\\",
+        "outputPath": "F:\\Personal Projects\\IntusWindows\\IntusWindows\\IntusWindows\\Shared\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Microsoft Windows\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "F:\\Personal Projects\\IntusWindows\\IntusWindows\\IntusWindows\\DAL\\IntusWindows.DAL.csproj": {
+                "projectPath": "F:\\Personal Projects\\IntusWindows\\IntusWindows\\IntusWindows\\DAL\\IntusWindows.DAL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[7.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

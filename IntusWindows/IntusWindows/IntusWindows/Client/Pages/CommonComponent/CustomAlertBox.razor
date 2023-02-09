@@ -1,0 +1,43 @@
+﻿@using static IntusWindows.Shared.AlertBox
+@if (alertBox.Visible)
+{
+    <div class="modal-backdrop fade show"></div>
+    <div class="modal fade show" id="successModal" style="padding-right: 17px;display: block;opacity:1;" tabindex="-1" role="dialog" aria-labelledby="successModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">@alertBox.Title</h5>
+                    <button type="button" class="close" @onclick="(()=> alertBox.Hide())" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    @alertBox.Message
+                </div>
+                <div class="modal-footer">
+                    @if (alertBox.AlertType == AlertBoxType.Confirm)
+                    {
+                        <button type="button" class="btn btn-secondary btn-danger" @onclick="(()=> alertBox.Hide())">Cancel</button>
+                        <button type="button" class="btn btn-primary" @onclick="(()=> alertBox.AlertBoxAction())">Yes</button>
+                    }
+                    else
+                    {
+                        if (alertBox.AlertBoxAction != null)
+                        {
+                            <button type="button" class="btn btn-primary" @onclick="(()=> alertBox.AlertBoxAction())">Ok</button>
+                        }
+                        else
+                        {
+                            <button type="button" class="btn btn-primary" @onclick="(()=> alertBox.Hide())">Ok</button>
+                        }
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+}
+
+@code {
+    [Parameter]
+    public AlertBox alertBox{ get; set; }
+}

@@ -1,0 +1,17 @@
+F:\Personal Projects\IntusWindows\IntusWindows\IntusWindows\Shared\bin\Debug\net6.0\IntusWindows.Shared.deps.json
+F:\Personal Projects\IntusWindows\IntusWindows\IntusWindows\Shared\bin\Debug\net6.0\IntusWindows.Shared.runtimeconfig.json
+F:\Personal Projects\IntusWindows\IntusWindows\IntusWindows\Shared\bin\Debug\net6.0\IntusWindows.Shared.dll
+F:\Personal Projects\IntusWindows\IntusWindows\IntusWindows\Shared\bin\Debug\net6.0\IntusWindows.Shared.pdb
+F:\Personal Projects\IntusWindows\IntusWindows\IntusWindows\Shared\bin\Debug\net6.0\IntusWindows.DAL.dll
+F:\Personal Projects\IntusWindows\IntusWindows\IntusWindows\Shared\bin\Debug\net6.0\IntusWindows.DAL.pdb
+F:\Personal Projects\IntusWindows\IntusWindows\IntusWindows\Shared\obj\Debug\net6.0\IntusWindows.Shared.csproj.AssemblyReference.cache
+F:\Personal Projects\IntusWindows\IntusWindows\IntusWindows\Shared\obj\Debug\net6.0\IntusWindows.Shared.GeneratedMSBuildEditorConfig.editorconfig
+F:\Personal Projects\IntusWindows\IntusWindows\IntusWindows\Shared\obj\Debug\net6.0\IntusWindows.Shared.AssemblyInfoInputs.cache
+F:\Personal Projects\IntusWindows\IntusWindows\IntusWindows\Shared\obj\Debug\net6.0\IntusWindows.Shared.AssemblyInfo.cs
+F:\Personal Projects\IntusWindows\IntusWindows\IntusWindows\Shared\obj\Debug\net6.0\IntusWindows.Shared.csproj.CoreCompileInputs.cache
+F:\Personal Projects\IntusWindows\IntusWindows\IntusWindows\Shared\obj\Debug\net6.0\IntusWindows.Shared.csproj.CopyComplete
+F:\Personal Projects\IntusWindows\IntusWindows\IntusWindows\Shared\obj\Debug\net6.0\IntusWindows.Shared.dll
+F:\Personal Projects\IntusWindows\IntusWindows\IntusWindows\Shared\obj\Debug\net6.0\refint\IntusWindows.Shared.dll
+F:\Personal Projects\IntusWindows\IntusWindows\IntusWindows\Shared\obj\Debug\net6.0\IntusWindows.Shared.pdb
+F:\Personal Projects\IntusWindows\IntusWindows\IntusWindows\Shared\obj\Debug\net6.0\IntusWindows.Shared.genruntimeconfig.cache
+F:\Personal Projects\IntusWindows\IntusWindows\IntusWindows\Shared\obj\Debug\net6.0\ref\IntusWindows.Shared.dll

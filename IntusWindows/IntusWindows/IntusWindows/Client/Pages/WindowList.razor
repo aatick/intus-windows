@@ -1,0 +1,95 @@
+﻿@page "/windowlist"
+@using IntusWindows.Client.Pages.CommonComponent
+@using static IntusWindows.Shared.Helper
+<PageTitle>Window List</PageTitle>
+<h3>Window List</h3>
+@if (windowList == null)
+{
+    <div class="row my-5">
+        <div class="col-lg-12">
+            <span class="mb-5 mt-5">Loading Windows...</span>
+        </div>
+    </div>
+}
+else
+{
+    <div class="card mb-5">
+        <div class="card-header">
+            Search Windows
+        </div>
+        <div class="card-body">
+            <div class="row my-2">
+                <div class="col-lg-2">
+                    <label for="txtName">Search By Order :</label>
+                </div>
+                <div class="col-lg-4">
+                    <select class="form-control input-sm" id="cmbOrder" @onchange="OnOrderSelect">
+                        <option value="0">Select Order</option>
+                        @foreach (var o in orderList)
+                        {
+                            <option value="@o.Id">@o.Name</option>
+                        }
+                    </select>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    if (windowList.Count == 0)
+    {
+        <div class="row my-5">
+            <div class="col-lg-12">
+                <span class="alert alert-danger mb-5 mt-5">There is no window right now</span>
+            </div>
+        </div>
+    }
+    else
+    {
+        <div class="row">
+            <div class="col-lg-12">
+                <table class="table table-responsive">
+                    <thead>
+                        <tr>
+                            <th>Sl#</th>
+                            <th>Order Name</th>
+                            <th>Window Name</th>
+                            <th>Window Quality</th>
+                            <th>Total Sub Elements</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @{
+                            var i = 0;
+                        }
+                        @foreach (var w in windowList)
+                        {
+                            //var order = await clientOrderService.GetOrderById(w.OrderId);
+                            <tr>
+                                <td>@(
+                                ++i
+                                )</td>
+                                <td>@w.Order.Name</td>
+                                <td>@w.Name</td>
+                                <td>@w.QualityOfWindows</td>
+                                <td>@w.TotalSubElements</td>
+                                <td>
+                                    <button class="btn btn-sm btn-success btn-edit" @onclick="(()=>EditWindow(w.Id))"><i class="oi oi-pencil"></i> Edit</button>
+                                    <button class="btn btn-sm btn-danger btn-delete" @onclick="(()=>ShowModal(w.Id))"><i class="oi oi-trash"></i> Delete</button>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    }
+}
+<div class="row">
+    <div class="col-lg-12">
+        <button class="btn btn-sm btn-primary" @onclick="GoToNewWindow"><i class="oi oi-pencil"></i> Create New Window</button>
+    </div>
+</div>
+
+<CustomAlertBox alertBox="@alertBox">
+</CustomAlertBox>

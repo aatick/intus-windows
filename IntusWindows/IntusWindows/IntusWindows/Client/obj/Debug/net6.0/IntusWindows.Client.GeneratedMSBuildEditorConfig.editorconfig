@@ -1,0 +1,67 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = browser
+build_property.EnableSingleFileAnalyzer = 
+build_property.EnableTrimAnalyzer = true
+build_property.IncludeAllContentForSelfExtract = 
+build_property.RootNamespace = IntusWindows.Client
+build_property.RootNamespace = IntusWindows.Client
+build_property.ProjectDir = F:\Personal Projects\IntusWindows\IntusWindows\IntusWindows\Client\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = F:\Personal Projects\IntusWindows\IntusWindows\IntusWindows\Client
+build_property._RazorSourceGeneratorDebug = 
+
+[F:/Personal Projects/IntusWindows/IntusWindows/IntusWindows/Client/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Personal Projects/IntusWindows/IntusWindows/IntusWindows/Client/Pages/CommonComponent/CustomAlertBox.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29tbW9uQ29tcG9uZW50XEN1c3RvbUFsZXJ0Qm94LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Personal Projects/IntusWindows/IntusWindows/IntusWindows/Client/Shared/SurveyPrompt.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Personal Projects/IntusWindows/IntusWindows/IntusWindows/Client/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Personal Projects/IntusWindows/IntusWindows/IntusWindows/Client/Pages/OrderSetup.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcT3JkZXJTZXR1cC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-lzorneb37m
+
+[F:/Personal Projects/IntusWindows/IntusWindows/IntusWindows/Client/Pages/SalesOrder.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2FsZXNPcmRlci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-rq9kvjaquu
+
+[F:/Personal Projects/IntusWindows/IntusWindows/IntusWindows/Client/Pages/SubElementList.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3ViRWxlbWVudExpc3QucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-s3ja5trem8
+
+[F:/Personal Projects/IntusWindows/IntusWindows/IntusWindows/Client/Pages/SubElementSetup.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3ViRWxlbWVudFNldHVwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-734iqpklg9
+
+[F:/Personal Projects/IntusWindows/IntusWindows/IntusWindows/Client/Pages/WindowList.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcV2luZG93TGlzdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-la6a60nalk
+
+[F:/Personal Projects/IntusWindows/IntusWindows/IntusWindows/Client/Pages/WindowSetup.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcV2luZG93U2V0dXAucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-yvredh71up
+
+[F:/Personal Projects/IntusWindows/IntusWindows/IntusWindows/Client/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-1mde92u4n1
+
+[F:/Personal Projects/IntusWindows/IntusWindows/IntusWindows/Client/Shared/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-98kjl5ms2f
